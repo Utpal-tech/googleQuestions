@@ -22,6 +22,4 @@ def retry():
     else:
         print("thank you")
 
-        
-    
 prime()
