@@ -1,0 +1,5 @@
+x = int(input("enter the no. till where you want to print the numobers"))
+a = 0
+while a<(x+1):
+  print(a)
+  a = a+1
