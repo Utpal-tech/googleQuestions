@@ -1,0 +1,5 @@
+a = int(input("inter smaller no.: "))
+b = int(input("inter greater no.: "))
+for i in range(a,b+1):
+  if i%2 != 0:
+    print(i)
