@@ -1,0 +1,12 @@
+def calculator():
+    calculate = eval(input("type to calculate\n"))
+    print(calculate)
+    conTinue()
+def conTinue():
+    print("do you want to calculate again")
+    choice = input("enter y for yes or any other key to exit")
+    if choice.lower() == "y":
+        calculator()
+    else:
+        print("thank you")
+calculator()
