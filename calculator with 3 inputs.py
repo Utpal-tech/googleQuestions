@@ -1,0 +1,6 @@
+num1 = float(input("enter a number: "))
+num2 = float(input("enter a number: "))
+operator = input("enter a operator: ")
+eqution = str(num1)+operator+str(num2)
+result = eval(eqution)
+print("The value of",num1,operator,num2,"is",result)
